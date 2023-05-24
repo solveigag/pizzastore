@@ -10,6 +10,9 @@ public class RecipeFactory implements Recipe{
             if (pizzaName == "Pepperoni") {
                 return new Pepperoni();
             }
+            if (pizzaName == "Four Cheese") {
+                return new FourCheese();
+            }
             return null;
         }
 

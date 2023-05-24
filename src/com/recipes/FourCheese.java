@@ -3,12 +3,13 @@ package com.recipes;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pepperoni implements Recipe {
-
+public class FourCheese implements Recipe{
     public List<String> Toppings = new ArrayList<>();
-    public Pepperoni() {
-        Toppings.add("Cheese");
-        Toppings.add("Pepperoni");
+    public FourCheese() {
+        Toppings.add("Parmesan");
+        Toppings.add("Mozzarella");
+        Toppings.add("Blue Cheese");
+        Toppings.add("Fontina");
         Toppings.add("Tomato sauce");
     }
     @Override

@@ -10,6 +10,7 @@ public class Main {
         List<String> pizzas = new ArrayList<>();
         pizzas.add("Pepperoni");
         pizzas.add("Plain");
+        pizzas.add("Four Cheese");
         customer.Order(pizzas);
 
     }
